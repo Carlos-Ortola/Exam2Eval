@@ -78,7 +78,12 @@ td#red:hover{
 footer{
     text-align: center;
     background-color: grey;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
-
+hr{
+    height: 16px;
+    width: 50%;
+    background-color: blue;
+    border: solid 1px red;
+}
 

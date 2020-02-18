@@ -1,0 +1,84 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+@media screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@media screen (orientation:landscape){
+    body{
+        background-color:yellow
+    }
+}
+
+@media screen (orientation: portrait){
+    body{
+        background-color:limegreen
+    }
+}
+
+header{
+    background-color:lightblue;
+    color: red;
+    font-family: 'Zhi Mang Xing';
+    padding: 1%;
+    padding-bottom:  7%;
+    text-align:center ;
+    border-style: solid;
+    border: solid 5px lightcoral;
+    
+}
+
+div#menu { display:flex; margin-bottom: 5px; background-color: rgb(255, 255, 255); text-align: center ;margin-left: 25%; border:}
+
+p.col {  border: lightcoral 3px solid; margin-right:  10%; padding:5%;}
+
+div#lista{
+    background-color: lightyellow;
+    border: lightcoral 5px solid
+} 
+
+div#test {
+    background-color: lightsteelblue;
+    border: lightcoral 5px solid
+}
+
+a:hover{
+    color: red;
+}
+
+
+td{
+    border: solid 2px black;
+    background-color: chocolate;
+    text-align: center;
+    padding:3%;
+    
+}
+
+table{
+
+ width: 50%;
+    margin-bottom: 5%;
+    
+}
+
+input:hover{
+    background-color: yellow;
+}
+
+td#yel:hover{
+    background-color: yellow;
+}
+td#red:hover{
+    background-color: red;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    padding-bottom: 10px;
+}
+
+
